@@ -260,8 +260,8 @@ public class PostSecurityServer {
         try (OutputStream output =
                      exchange.getResponseBody()) {
 
-            output.write(responseBytes);
+            output.write(responseBytes
+            );
         }
     }
 }
-
